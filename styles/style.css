@@ -57,13 +57,28 @@ header {
 /* Central Cotainer Image Elements */
 .eiffel {
 	margin-left: 40px;
+	width: 270px; 
+	height: 346px;
 }
 
-.clouds {
+.robot {
+	width: 48px;
+	height: 38px;
+}
 
+.lamp {
+	width: 21px;
+	height: 90px;
 }
 
 .cloud1 {
+	width: 90px;
+	height: 62px;
+}
+
+.cloud2 {
+	width: 90px;
+	height: 62px;
 }
 
 /* Central Container Text Elements */
