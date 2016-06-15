@@ -1,13 +1,147 @@
+* {
+	font-family: Georgia, Arial, Helvetica;
+}
+
 /* Header Navigation Bar */
-#nav {
+header {
 	background-color: #fdee76; /* colour of box */
 	color: #e14a97; /* colour of text inside will be this colour */
 	height: 50px;
 	margin-top: 20px;
 }
 
-ul {
+/* Navigation Bar Directions */
+.nav {
 	float: left;
 	padding-left: 30px;
 	padding-top: 15px;
 }
+
+.nav li {
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 90%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav li:hover {
+	color: #aea85c;
+}
+
+.separator {
+	padding-left: 20px;
+}
+
+/* Central Container and Features */
+.container {
+	display: block;
+	margin: auto;
+	margin-bottom: -6px;
+	width: 960px;
+	background-color: #67d537;
+	padding-top: 210px;
+}
+
+.dividing_line{
+	display:block;
+	background-color: #000;
+	height:3px;
+}
+
+.image {
+	display: inline-block;
+}
+
+/* Central Cotainer Image Elements */
+.eiffel {
+	margin-left: 40px;
+}
+
+.clouds {
+
+}
+
+.cloud1 {
+}
+
+/* Central Container Text Elements */
+.text_area {
+	display: block;
+	width: 535px;
+	float: right;
+	margin-top: -27px;
+}
+
+.index {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.intro {
+	padding-bottom: 30px;
+}
+
+.command_line {
+	background-color: #93b7d2;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.command_line p {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+
+/* Footer Bar Contact and Arrow*/
+footer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+/* Arrows */
+.move_buttons {
+	display: block;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+.arrow {
+	display: inline-block;
+	border-color: #3a23d3;
+	border-width: 1px;
+	border-style: solid;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+
+/* Footer Contact Info*/
+.contact {
+	text-align: center;
+	background-color: #9c1bc7;
+	clear: right;
+}
+
+.contact li {
+	display: inline-block;
+	box-sizing: border-box;
+	color: #6af1f4;
+	font-size: 90%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.connect_media:hover {
+	color: #3026f7;
+}
+
