@@ -1,0 +1,13 @@
+/* Header Navigation Bar */
+#nav {
+	background-color: #fdee76; /* colour of box */
+	color: #e14a97; /* colour of text inside will be this colour */
+	height: 50px;
+	margin-top: 20px;
+}
+
+ul {
+	float: left;
+	padding-left: 30px;
+	padding-top: 15px;
+}
